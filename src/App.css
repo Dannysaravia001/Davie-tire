@@ -14,7 +14,6 @@
 
 .header img {
   height: 100%;
-  object-fit: scale-down; /* Ensure the image covers the container */
   opacity: 0.8; /* Set the initial opacity */
   transition: opacity 0.5s ease; /* Add a smooth transition for the opacity */
   transform: scale(0.8); /* Zoom out the image to 80% of its original size */
@@ -22,7 +21,7 @@
 }
 
 
-media @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .header {
     height: 200px; /* Set the height of the banner */
   }
