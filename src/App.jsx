@@ -11,6 +11,8 @@ function App() {
         <header className="header">
           <img src={image} alt="Davie Tire Shop" />
         </header>
+        
+        
       </div>
     </>
   )
